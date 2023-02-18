@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-color: #222345;
+  color: #fff;
+  font-family: monospace, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 40px auto; */
+}
+
+.quit {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  font-size: 25px;
+  background-color: #222345;
+  border: none;
+  color: #fff;
+}
